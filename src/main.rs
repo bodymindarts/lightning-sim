@@ -1,3 +1,5 @@
+use lightning_sim::sim;
+
 fn main() {
-    println!("Hello, world!");
+    sim::run()
 }
